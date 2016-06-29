@@ -29,6 +29,7 @@
     return _shapeLayer;
 }
 
+// 将设置进度条的属性都定义在view的层面, 方便外部调用
 - (void)setStrokeColor:(UIColor *)strokeColor{
     self.shapeLayer.strokeColor = strokeColor.CGColor;
 }

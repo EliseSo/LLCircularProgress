@@ -79,6 +79,7 @@
         self.countLink.paused = NO;
     }else{
         if (self.percentage < 300) {
+            // 这个方法会降低效率造成卡顿, 弃用
 //            [self.countLink removeFromRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
             self.countLink.paused = YES;
         }else{
