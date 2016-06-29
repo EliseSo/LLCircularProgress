@@ -14,6 +14,21 @@
 
 @implementation CircleView
 
+- (CAShapeLayer *)shapeLayer{
+    if (!_shapeLayer) {
+        _shapeLayer = [CAShapeLayer layer];
+        _shapeLayer.path = [UIBezierPath bezierPathWithOvalInRect:self.bounds].CGPath;
+        _shapeLayer.strokeColor = self.strokeColor.CGColor;
+        _shapeLayer.fillColor = self.fillColor.CGColor;
+        _shapeLayer.lineWidth = self.strokeWidth;
+        _shapeLayer.strokeStart = self.startValue;
+        _shapeLayer.strokeEnd = self.endValue;
+        _shapeLayer.frame = self.bounds;
+        [self.layer addSublayer:_shapeLayer];
+    }
+    return _shapeLayer;
+}
+
 - (void)setStrokeColor:(UIColor *)strokeColor{
     self.shapeLayer.strokeColor = strokeColor.CGColor;
 }
