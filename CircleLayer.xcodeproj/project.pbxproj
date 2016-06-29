@@ -14,6 +14,7 @@
 		71AF826C1D238E1A00BF1142 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71AF826B1D238E1A00BF1142 /* Assets.xcassets */; };
 		71AF826F1D238E1A00BF1142 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71AF826D1D238E1A00BF1142 /* LaunchScreen.storyboard */; };
 		71AF827A1D238E1B00BF1142 /* CircleLayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF82791D238E1B00BF1142 /* CircleLayerUITests.m */; };
+		71AF82861D2395CC00BF1142 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71AF82851D2395CC00BF1142 /* CircleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,8 @@
 		71AF82751D238E1B00BF1142 /* CircleLayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CircleLayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AF82791D238E1B00BF1142 /* CircleLayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleLayerUITests.m; sourceTree = "<group>"; };
 		71AF827B1D238E1B00BF1142 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71AF82841D2395CC00BF1142 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		71AF82851D2395CC00BF1142 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,8 @@
 				71AF82631D238E1A00BF1142 /* AppDelegate.m */,
 				71AF82651D238E1A00BF1142 /* ViewController.h */,
 				71AF82661D238E1A00BF1142 /* ViewController.m */,
+				71AF82841D2395CC00BF1142 /* CircleView.h */,
+				71AF82851D2395CC00BF1142 /* CircleView.m */,
 				71AF82681D238E1A00BF1142 /* Main.storyboard */,
 				71AF826B1D238E1A00BF1142 /* Assets.xcassets */,
 				71AF826D1D238E1A00BF1142 /* LaunchScreen.storyboard */,
@@ -211,6 +216,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71AF82861D2395CC00BF1142 /* CircleView.m in Sources */,
 				71AF82671D238E1A00BF1142 /* ViewController.m in Sources */,
 				71AF82641D238E1A00BF1142 /* AppDelegate.m in Sources */,
 				71AF82611D238E1A00BF1142 /* main.m in Sources */,
